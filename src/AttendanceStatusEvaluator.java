@@ -1,7 +1,7 @@
 import java.util.Scanner;
   public class AttendanceStatusEvaluator{
     public static void main(String args[]){
-      Scanner sc=new scanner(System.in);
+      Scanner sc=new Scanner(System.in);
         System.out.println("Enter Student Attendance Percentage:");
           int num=sc.nextInt();
         if(num>85){
