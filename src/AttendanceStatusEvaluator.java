@@ -3,7 +3,7 @@ import java.util.Scanner;
     public static void main(String args[]){
       Scanner sc=new Scanner(System.in);
       int num=sc.nextInt();
-        System.out.println("Enter Student Attendance Percentage:");
+        System.out.println(Enter Student Attendance Percentage:,num);
         if(num>85){
           System.out.println("Excellent");
           }
