@@ -1,19 +1,17 @@
 import java.util.Scanner;
-  public class AttendanceStatusEvaluator{
-    public static void main(String args[]){
-      Scanner sc=new Scanner(System.in);
-      int num=sc.nextInt();
-        System.out.println(Enter Student Attendance Percentage:,num);
-        if(num>85){
-          System.out.println("Excellent");
-          }
-            else if(num>60 && num<85){
-            System.out.println("Satisfactory");
-          }
-            else if(num<60){
-            System.out.println("Poor");
-          }
-        sc.close();
-          }
-  }
-         
+public class AttendanceStatusEvaluator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int attendance = sc.nextInt();
+        if (attendance > 85) {
+            System.out.print("Excellent");
+        } 
+        else if (attendance >= 60 && attendance <= 85) {
+            System.out.print("Satisfactory");
+        } 
+        else {
+            System.out.print("Poor");
+        }
+    }
+}
+
